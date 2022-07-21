@@ -1,6 +1,5 @@
 <template>
-    <h1 class="font-bold text-4xl">Home</h1>
-
+    <h1 class="font-bold text-4xl">Settings</h1>
 
     <Nav />
     
@@ -10,11 +9,7 @@
 import Nav from "../Shared/Navbar.vue"
 
 export default {
-    components: { Nav },
-    props: {
-        name: String,
-        stacks: Array
-    }
+    components: { Nav }
  
 }
 </script>
